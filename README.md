@@ -42,22 +42,21 @@ The frequency table is reconstructed, the Huffman tree is rebuilt, and the binar
 ⸻
 
 Project Structure
-'''
+
 File_Compression_Tool/
 │
 ├── sample.txt       
 ├── compressed.bin      
 ├── decompressed.txt      
 └── main.py     
-'''
+
 
 Usage
 
-Run the Program
+Run the Program 
 
-'''
 python main.py
-'''
+
 
 Menu Options
 	•	1 → Compress the input file (sample.txt)
