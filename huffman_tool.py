@@ -127,7 +127,6 @@ def serialize_frequency_table(frequency: Dict[str, int]) -> bytes:
 
 
 def deserialize_frequency_table(data: bytes) -> Dict[str, int]:
-    """Deserializes frequency table from bytes."""
     if not data:
         return {}
 
